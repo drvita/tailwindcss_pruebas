@@ -2,7 +2,7 @@
 @tailwind components;
 
 .card {
-    @apply p-4 bg-white border border-gray-600 rounded-2xl;
+    @apply p-4 bg-white border border-gray-100 shadow-xl rounded-2xl;
 }
 .card .card-title {
     @apply font-bold text-black;
