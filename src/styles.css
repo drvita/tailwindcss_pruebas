@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+
+.card {
+    @apply p-4 bg-white border border-gray-600 rounded-2xl;
+}
+.card .card-title {
+    @apply font-bold text-black;
+}
+.card .card-subtitle {
+    @apply font-bold text-relleno;
+}
+.card .card-text {
+    @apply mt-4 text-sm text-gray-500;
+}
+.min {
+    min-height: 600px;
+}
+.titulo {
+    @apply text-3xl font-bold sm:text-5xl text-titulo;
+}
+.fondo {
+    background-repeat: no-repeat;
+    background-position: left -420px top -420px;
+    background-attachment: fixed;
+}
+
+@tailwind utilities;
+

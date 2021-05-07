@@ -1,0 +1,28 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.14",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  },
+  "scripts": {
+    "start": "postcss src/styles.css --output css/styles.css --watch",
+    "build": "postcss src/styles.css --output css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drvita/tailwindcss_pruebas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drvita/tailwindcss_pruebas/issues"
+  },
+  "homepage": "https://github.com/drvita/tailwindcss_pruebas#readme"
+}
